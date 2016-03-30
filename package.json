@@ -2,7 +2,7 @@
   "name": "sails-hook-newrelic-agent",
   "description": "Integrates newrelic with your Sails application",
   "homepage": "https://github.com/leoliew/sails-hook-newrelic-agent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.js",
   "author": {
     "name": "Leo Liu"
