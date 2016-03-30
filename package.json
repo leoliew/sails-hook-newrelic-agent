@@ -1,0 +1,40 @@
+{
+  "name": "sails-hook-newrelic-agent",
+  "description": "Integrates newrelic with your Sails application",
+  "homepage": "https://github.com/leoliew/sails-hook-newrelic-agent",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": {
+    "name": "Leo Liu"
+  },
+  "bugs": {
+    "url": "https://github.com/leoliew/sails-hook-newrelic-agent/issues"
+  },
+  "keywords": [
+    "sails",
+    "hook",
+    "newrelic",
+    "metrics",
+    "agent"
+  ],
+  "dependencies": {
+    "newrelic": "1.26.0",
+    "newrelic-config": "git+https://github.com/leoliew/newrelic-config.git"
+  },
+  "devDependencies": {
+    "sails": "~0.11.3",
+    "should": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": "4.4.2",
+    "npm": "3.8.0"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/_mocha"
+  },
+  "license": "MIT",
+  "sails": {
+    "isHook": true
+  }
+}
