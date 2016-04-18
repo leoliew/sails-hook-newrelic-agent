@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "newrelic": "1.26.0",
+    "morgan": "1.7.0",
     "newrelic-config": "git+https://github.com/leoliew/newrelic-config.git"
   },
   "devDependencies": {
